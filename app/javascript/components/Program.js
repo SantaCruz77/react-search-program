@@ -28,10 +28,6 @@ const Program = ({ searchs }) => {
           <strong>Subtitle:</strong> {program.subtitle}
         </li>
       </ul>
-
-      <button type="button" onClick="history.back()">戻る</button>
-
-
     </div>
 
   );
