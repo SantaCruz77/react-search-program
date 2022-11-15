@@ -1,0 +1,95 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+header {
+  background: green;
+  height: 60px;
+}
+
+header h1, header h1 a{
+  display: inline-block;
+  font-family: "Maven Pro";
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding: 14px 5%;
+  text-decoration: none;
+}
+
+footer {
+  background: green;
+  height: 60px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: minmax(250px, 20%) auto;
+  margin: 25px auto;
+  width: 90%;
+  height: calc(100vh - 145px);
+}
+
+.ProgramList {
+  background: #f6f6f6;
+  padding: 16px;
+}
+
+.programList h2 {
+  font-size: 20px;
+  padding: 8px 6px 10px;
+}
+
+.programContainer {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.programContainer h2 {
+  margin-bottom: 10px;
+}
+
+.programList li:hover, a.active {
+  background: #f8e5ce;
+}
+
+.programList a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px 6px 10px;
+  outline: 0;
+}
+
+.programList h2 > a {
+  color: #236fff;
+  font-size: 15px;
+  float: right;
+  font-weight: normal;
+  border-bottom: none;
+  padding: 0px;
+}
+
+.programForm {
+  margin-top: 15px;
+}
+
