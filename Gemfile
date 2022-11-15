@@ -6,6 +6,11 @@ gem "rails", "~> 7.0.4"
 
 gem 'dotenv-rails'
 gem 'faraday'
+
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'
+
 gem "sprockets-rails"
 gem "puma", "~> 5.0"
 gem "jsbundling-rails"
